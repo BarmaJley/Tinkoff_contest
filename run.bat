@@ -1,0 +1,1 @@
+compare.py input.txt score.txt
