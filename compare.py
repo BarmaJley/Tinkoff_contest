@@ -61,6 +61,6 @@ if __name__ == "__main__":
 
         result.append(round(levenstein(text1, text2), 2))
 
-    with open("score.txt", "w") as f:
+    with open(sys.argv[2], "w") as f:
         for line in result:
             f.write(str(line) + '\n')
